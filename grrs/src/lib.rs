@@ -14,12 +14,13 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_find_matches() {
+    fn test_find_matches() -> Result<()> {
         let content = "Hello, world!\nThis is a test.\nHello again.";
         let pattern = "Hello";
         let mut output = Vec::new();
 
-        find_matches(content, pattern, &mut output).unwrap();
+        find_matches(content, pattern, &mut output)?;
         assert_eq!(output, b"Hello, world!\nHello again.\n");
+        Ok(())
     }
 }
