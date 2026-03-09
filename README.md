@@ -5,3 +5,4 @@
 ## References
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)
 - [Command Line Applications in Rust](https://rust-cli.github.io/book/index.html)
+- [《Command Line Applications in Rust》的中文翻译](https://book.chen0adapter.top/books/Command-Line-Applications-in-Rust-cn/index.html)
